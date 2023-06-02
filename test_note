@@ -1,0 +1,29 @@
+Clone project:
+$ git clone (https: project git url
+
+To see all modified files
+$ git status
+
+Add the modified file
+$ git add file1.txt file2.txt
+
+Commit the code to current branch
+$ git commit -m "Added new files"
+
+push to current branch (commited files)
+$ git push origin
+
+pull the changes from the remote repository to the local repository.
+$ git pull origin
+
+Switching one branch to other branch
+$ git checkout (other branch name)
+
+Saving local changes without commiting
+$ git stash
+
+Bring the changes from stash
+$ git stash pop 
+
+Will see all files in currenct location
+$ git ls-files
